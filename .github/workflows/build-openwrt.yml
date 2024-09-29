@@ -6,7 +6,7 @@
 #
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
-#
+# https://www.haisong.games/2023/06/17/openwrt-immortalwrt%E7%BC%96%E8%AF%91%E4%B8%8E%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/
 
 name: Build OpenWrt
 
@@ -17,7 +17,7 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: false
-        default: 'false'
+        default: 'true'
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
